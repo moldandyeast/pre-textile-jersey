@@ -1,0 +1,15 @@
+/* credits: a strip above the landing nav, in the piece's own drafting type. Hidden in the studio and in fullscreen. */
+#credits { border-bottom: 1px solid var(--hair); background: var(--panel); font: 700 10px/1.4 var(--font); letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); }
+#credits .lp-wrap { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 18px; padding-block: 6px 5px; }
+#credits b { margin-right: auto; color: var(--ink); letter-spacing: 0.12em; }
+#credits ul { display: flex; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
+#credits li + li { margin-left: 10px; padding-left: 10px; border-left: 1px solid var(--hair); }
+#credits a { color: inherit; text-decoration: none; }
+#credits a:hover { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+body.in-studio #credits, :root:fullscreen #credits, :root:has(:fullscreen) #credits { display: none; }
+@media (display-mode: fullscreen) { #credits { display: none; } }
+@media (max-width: 680px) {
+  #credits b { flex-basis: 100%; }
+  #credits ul { gap: 4px 14px; }
+  #credits li + li { margin-left: 0; padding-left: 0; border-left: 0; }
+}

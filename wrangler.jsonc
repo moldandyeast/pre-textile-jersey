@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "textile-jersey",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "textile-jersey.moldandyeast.com", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./public"
+  }
+}
