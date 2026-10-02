@@ -90,7 +90,7 @@ The construction rules come from the sources listed in the **Guide** tab.
 
 ## Repository
 
-The code lives on the [`textile-jersey-github-deploy`](https://github.com/moldandyeast/pre-textile-jersey/tree/textile-jersey-github-deploy) branch. `main` stays near-empty.
+The code lives on the [`textile-jersey-github-deploy`](https://github.com/moldandyeast/pre-textile-jersey/tree/textile-jersey-github-deploy) branch. `main` only holds this README and its screenshots.
 
 | Path | What |
 | --- | --- |
